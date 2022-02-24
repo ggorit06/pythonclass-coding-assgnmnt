@@ -1,4 +1,4 @@
-Num = int(input("\nPlease Enter the Value : "))
+Num = int(input("\nPlease Enter the Number : "))
 
 Sum = 0
 Times = 0
