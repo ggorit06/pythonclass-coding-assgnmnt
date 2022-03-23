@@ -1,0 +1,10 @@
+for i in range(1,101):
+    if not i % 15:
+        i = "FizzBuzz"
+    elif not i % 5:
+        i = "Buzz"
+    elif not i % 3:
+        i = "Fizz"
+    print(i, sep="\n")
+    
+    
