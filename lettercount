@@ -1,0 +1,14 @@
+
+
+s = input("Enter a string: ")
+
+s = ''.join(sorted(s))
+d = dict()
+
+for i in s:
+        d[i] = s.count(i)
+
+print("%-10s %-5s"%("Letter", "Occurences"))
+
+for i,j in zip(d.keys(), d.values()):
+    print("%-10s %-5s"%(i, str(j)))
